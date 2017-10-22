@@ -1,7 +1,15 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OV_ModTool_V1._0.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ovdbPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Games\LMPGames\Odyssian Void\OVDB.sqlite</Value>
+    </Setting>
+    <Setting Name="ovSaveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Games\LMPGames\Odyssian Void\Save Files</Value>
+    </Setting>
+    <Setting Name="bALDisabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

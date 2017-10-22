@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace OV_ModTool_V1._0
 {
-    public partial class Form1 : Form
+    public partial class autoload : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        MainWin mWindow;
+        public autoload() => InitializeComponent();
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            mWindow = new MainWin();
+            mWindow.ShowDialog();
+            this.Close();
         }
     }
 }

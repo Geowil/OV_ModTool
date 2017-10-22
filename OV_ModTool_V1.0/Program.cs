@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using OV_ModTool_V1._0.Properties;
 namespace OV_ModTool_V1._0
 {
     static class Program
@@ -16,7 +16,15 @@ namespace OV_ModTool_V1._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            if (!(bool)Settings.Default["bALDisabled"])
+            {
+                Application.Run(new autoload());
+            }
+            else
+            {
+                Application.Run(new MainWin());
+            }
         }
     }
 }
